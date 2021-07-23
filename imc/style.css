@@ -66,7 +66,7 @@ button{
     width: 300px;
     height: 150px;
     border-radius: 5px;
-    font: bold 1.5rem serif;
+    font: bold italic 1.5rem serif;
     box-shadow: 0px 0px 10px rgb(5, 5, 5);
     background: rgba(255, 255, 255, 0.918);
     color: rgb(27, 112, 6);
