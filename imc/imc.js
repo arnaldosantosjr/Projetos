@@ -25,7 +25,7 @@ function imc (){
                 classificacao = 'abaixo do peso.';
         }else if 
             (valorIMC <24.9){
-                classificacao = 'no pesso ideal. Arroacha, garurumon!!';
+                classificacao = 'no peso ideal. Arrocha, garurumon!!';
         }else if 
             (valorIMC <29.9){
 
