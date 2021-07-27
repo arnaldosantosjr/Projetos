@@ -9,4 +9,48 @@ body{
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    font-family: 'Open Sans' sans-serif;
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+
+.title{
+    color: #ffcc00;
+    margin: 15vh auto;
+    font-size: calc(5vw + 20px);
+    font-style: italic;
+    text-shadow: 0 0 10px black;
+}
+.container{
+
+    background: rgba(0,0,0,0); 
+    width: 90vw;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+.key{
+
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000AA;
+    color: white;
+    font-size: calc(3vw + 20px) ;
+    border: 3px solid white;
+    user-select: none;
+    cursor: pointer;
 }
