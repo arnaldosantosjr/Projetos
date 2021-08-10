@@ -2,7 +2,7 @@
 const sons = {
     'A': 'boom.wav',
     'S': 'clap.wav',
-    'D': 'hiahat.wav',
+    'D': 'hihat.wav',
     'F': 'Kick.wav',
     'G': 'openhat.wav',
     'H': 'ride.wav',
@@ -24,12 +24,17 @@ const exibir = (sons) => Object.keys(sons).forEach(criarDiv);
 
 //exibir (sons);
 const tocarSom = (letra) =>{
-    const audio = new Audio(`./sonds/${sons[letra]}`);
+    const audio = new Audio(`./sounds/${sons[letra]}`);
     audio.play();
 }
 const ativarDiv = (evento) => {
     const letra = evento.target.id;
-    tocarSom(letra);
+    const letraPermitida = sons.hasOwnProperty(letra);
+    if (letraPermitida){
+        tocarSom(letra);
+    }
+    
+
 }
 
 exibir(sons);
