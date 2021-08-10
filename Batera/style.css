@@ -22,7 +22,7 @@ main{
 }
 
 .title{
-    color: #ffcc00;
+    color: #0cd437a9;
     margin: 15vh auto;
     font-size: calc(5vw + 20px);
     font-style: italic;
@@ -47,7 +47,7 @@ main{
     height: 100px;
     align-items: center;
     justify-content: center;
-    background-color: #000000AA;
+    background-color: #0dbd33bd;
     color: white;
     font-size: calc(3vw + 20px) ;
     border: 3px solid white;
