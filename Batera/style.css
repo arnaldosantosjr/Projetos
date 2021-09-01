@@ -53,4 +53,13 @@ main{
     border: 3px solid white;
     user-select: none;
     cursor: pointer;
+    transition: trasform .2x;
+
+}
+
+
+.active{
+    transform: scale(1.3);
+    border-color: hsla(0, 0%, 100%, 0.445) ;
+    box-shadow: 0 0 50 px  #0dbd33bd ;
 }
