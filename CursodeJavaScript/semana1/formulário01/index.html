@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
     
 </head>
 <body>
@@ -13,6 +13,9 @@
     </nav>
     <main>
         <form action="">
+            <fieldset>
+                <legend> 
+                    <h1>Ficha de Cadastro</h1></legend>
             <label for="nome_form">Nome:</label><br>
             <input id="nome_form" type="text" required>
             <br>
@@ -24,14 +27,27 @@
             <br>
             <label for="nome_form">Nome da Mãe:</label><br>
             <input id="nome_form" type="text" required>
-            <br>
 
-            <p for="">Linguagem de preferência</p><br>
+        
+        </fieldset>
+            <br>
+            <fieldset>
+            <p for=""><strong>Linguagem de preferência</strong> </p><br>
             <label for=""><input type="radio" name="linguagem" value="JavaScript">JavaScript</label>
             <label for=""><input type="radio" name="linguagem" value="Python">Python</label>
             <label for=""><input type="radio" name="linguagem" value="Ruby">Ruby</label>
             <label for=""><input type="radio" name="linguagem" value="PHP">PHP</label>
             <label for=""><input type="radio" name="linguagem" value="Go">Go</label>
+
+            <p><strong>Área de Interesse</strong> </p>
+    
+            <label><input type="checkbox">Front-End</label>
+            <label><input type="checkbox">Back- End</label>
+            <label><input type="checkbox">Fullstack</label>
+            <label><input type="checkbox">Segurança</label><br>
+            </fieldset>
+
+            <input type="submit" value="Enviar">
         </form>
     </main>
     <footer>
