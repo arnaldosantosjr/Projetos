@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabela de Alunos</title>
 </head>
 <body>
+    <!--Formato de tabela antiga-->
     <table>
         <tr>
             <td></td>
@@ -16,26 +17,42 @@
         </tr>    
     </table>
 
-    <table>
+    <table border="1">
+        <!--Novo formato de tabela-->
+        <!--Cabeça da tabela-->
         <thead>
             <tr>
-                <th></th>
-                <th></th>
+                <!--Os "th" são títulos-->
+                <tr><th rowspan="3">Cabeçalho</th>
+                </tr>
+                <tr><th colspan="3">Relação de Alunos</th></tr>
+                <tr><th>Nome</th><th>Idade</th> <th>Curso</th></tr>
             </tr>
         </thead>
+        <!--Corpo da tabela-->
         <tbody>
             <tr>
-                <td></td>
-                <td></td>
+                <tr>
+                    <td rowspan="4">Aluno</td>
+                </tr>
+                <td>David Massin</td><td>22</td><td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>Arnaldo Santos</td><td>31</td><td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>Jaciara Alcantara</td><td>28</td><td>JavaScript</td>
             </tr>
         </tbody>
+        <!--Rodapé da tabela-->
         <tfoot>
             <tr>
-                <td></td>
-                <td></td>
+                <td >Rodapé</td>
+                <th colspan="4">Todos os direitos reservados &copy;</th>
             </tr>
         </tfoot>
     </table>
+    
     
 
     
